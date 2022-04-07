@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "random-movie-front",
-    "slug": "random-movie-front",
+    "name": "random-movie",
+    "slug": "random-movie",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,17 +16,13 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+        "backgroundColor": "#31C66F"
+      },
+      "package": "com.random.movie",
+      "versionCode": 1
     }
   }
 }
