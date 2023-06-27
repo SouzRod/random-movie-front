@@ -6,7 +6,7 @@ export default function App() {
   const [movie, setMovie] = useState({});
 
   const movieHandler = async () => {
-    const { data } = await axios.get('https://randomic-movie.herokuapp.com/random-movies');
+    const { data } = await axios.get('https://random-movies-elisa-17168230b7f9.herokuapp.com');
     if(data.overview.length === 0){
       await movieHandler();
       return;
